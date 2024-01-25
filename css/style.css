@@ -24,8 +24,6 @@
     --color: #FFF;
     --background: #F4F0EC;
     --text-color: #CDA274;
-    --color-background: #202023;
-    --backg-background: rgba(242, 242, 242, 0.30);
 }
 
 body {
@@ -57,6 +55,7 @@ a {
    display: flex;
    justify-content: flex-start;
    margin-top: 26px;
+   margin-bottom: 38px;
 }
 
 .header-logo {
@@ -65,13 +64,19 @@ a {
 }
 
 .header-title {
-    color: #292F36;
+    color: var(--menu-color);
     font-family: Jost;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 157.895% */
+    line-height: 30px;
     letter-spacing: 0.4px;
+}
+
+.header-title:hover,
+.header-title:focus {
+    color: var(--menu);
+    cursor: pointer;
 }
 
 .header-list {
@@ -82,4 +87,22 @@ a {
 
 .header-item {
     margin-right: 40px;
+}
+
+/* create */
+.create {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    height: 831px;
+    background-position: center;
+}
+
+.create-title {
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px; 
+    letter-spacing: 0.22px;
 }
