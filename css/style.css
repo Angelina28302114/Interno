@@ -20,10 +20,10 @@
 :root {
     --menu: #CDA274;
     --menu-color: #292F36;
-    --btn-background: #B47B48;
-    --button-background: #C85312;
-    --item-background: #272727;
-    --iteem-background: #EBAD51;
+    --text: #4D5053;
+    --color: #FFF;
+    --background: #F4F0EC;
+    --text-color: #CDA274;
     --color-background: #202023;
     --backg-background: rgba(242, 242, 242, 0.30);
 }
