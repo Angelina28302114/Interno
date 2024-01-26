@@ -313,7 +313,7 @@ a {
 
 .what-list {
     display: flex;
-    justify-content: center;
+    margin-left: 51px;
 }
 
 .what-item {
@@ -321,6 +321,7 @@ a {
     background: #FFF;
     width: 354px;
     height: 287px;
+    margin-right: 18px;
 }
 
 .what-title-one {
@@ -348,6 +349,7 @@ a {
     letter-spacing: 0.22px;
     width: 285px;
     margin-left: 458px;
+    margin-bottom: 47px;
 }
 
 .what-title-three {
