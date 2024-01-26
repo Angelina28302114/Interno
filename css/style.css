@@ -137,6 +137,13 @@ a {
     margin-top: 35px
 }
 
+.create-button:hover,
+.create-button:focus {
+    background-color: var(--color);
+    color: var(--menu-color);
+    cursor: pointer;
+}
+
 /* interior */
 .interior-list {
     display: flex;
@@ -281,6 +288,13 @@ a {
     height: 71px;
 }
 
+.designs-button:hover,
+.designs-button:focus {
+    background-color: var(--color);
+    color: var(--menu-color);
+    cursor: pointer;
+}
+
 .designs-box {
     display: flex;
     justify-content: center;
@@ -399,5 +413,132 @@ a {
     font-style: normal;
     line-height: 30px; 
     letter-spacing: 0.22px;
-    width: 244px;
+    width: 274px;
+    margin-left: 35px;
 }
+
+.what-box-one {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.what-box-two {
+    margin-left: 20px;
+}
+
+/* brand */
+.brand-title {
+    color: #FFF;
+}
+
+.brand-list {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 140px;
+    margin-bottom: 99px;
+}
+
+.brand-item-one {
+    margin-top: -30px;
+}
+
+/* projects */
+.projects-title {
+    color: var(--menu-color);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px; 
+    letter-spacing: 0.22px;
+    width: 331px;
+    margin-left: 554px;
+    margin-bottom: 20px;
+}
+
+.projects-p-one {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px; 
+    letter-spacing: 0.22px;
+    width: 786px;
+    margin-left: 327px;
+}
+
+.projects-p-two {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px; 
+    letter-spacing: 0.22px;
+    width: 615px;
+    margin-left: 413px;
+    margin-bottom: 71px;
+}
+
+.projects-title-two-two {
+    color: var(--menu-color);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; 
+    letter-spacing: 0.22px;
+    width: 299px;
+}
+
+.projects-title-two {
+    color: var(--menu-color);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; 
+    letter-spacing: 0.22px;
+    width: 325px;
+}
+
+.projects-p-three {
+    color: var(--text);
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    width: 114px;
+}
+
+.projects-div {
+    border-radius: 100px;
+    background-color: var(--background);
+    width: 70px;
+    height: 70px;
+}
+
+.projects-box-one {
+    display: flex;
+    margin-top: 25px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects-item {
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+.projects-box-two {
+    margin-right: 221.5px;
+}
+
+/* years */
