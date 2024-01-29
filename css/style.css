@@ -10,7 +10,7 @@
 }
 
 .container{
-    width: 1440px;
+    width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -332,7 +332,6 @@ a {
     background-color: #F4F0EC;
     width: 1200px;
     height: 675px;
-    margin-left: 100px;
 }
 
 .what-list {
@@ -796,7 +795,6 @@ a {
     width: 1200px;
     height: 414px;
     margin-top: 141px;
-    margin-left: 100px;
 }
 
 .join-title {
