@@ -613,7 +613,8 @@ a {
 
 .years-list {
     display: flex;
-    gap: 128px; 
+    gap: 73px;
+    justify-content: center;
 }
 
 .years-title {
