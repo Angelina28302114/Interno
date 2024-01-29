@@ -60,7 +60,6 @@ a {
 
 .header-logo {
    margin-top: 26px;
-   margin-left: 120px;
 }
 
 .header-title {
@@ -96,7 +95,6 @@ a {
 }
 
 .create-box {
-    margin-left: 120px;
     padding-top: 188px;
     padding-bottom: 260px;
 }
@@ -330,7 +328,6 @@ a {
 .what-box {
     border-radius: 70px;
     background-color: #F4F0EC;
-    width: 1200px;
     height: 675px;
 }
 
