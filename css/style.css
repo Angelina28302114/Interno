@@ -269,6 +269,12 @@ a {
     width: 138px;
 }
 
+.designs-tell:hover,
+.designs-tell:focus {
+    color: var(--menu);
+    cursor: pointer;
+}
+
 .designs-p-three {
     color: var(--text);
     font-size: 22px;
