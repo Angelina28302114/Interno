@@ -63,10 +63,6 @@ a {
      align-items:center;
 }
 
-.header-logo {
-   /* margin-top: 26px; */
-}
-
 .header-title {
     color: var(--menu-color);
     font-size: 19px;
@@ -84,12 +80,6 @@ a {
 .header-list {
     gap: 40px;
     display: flex;
-    /* margin-top: 38px;
-    margin-left: 505px; */
-}
-
-.header-item {
-    /* margin-right: 40px; */
 }
 
 /* create */
@@ -695,6 +685,16 @@ a {
     letter-spacing: 0.22px;
 }
 
+.blogs-p-one {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px; 
+    letter-spacing: 0.22px;
+    margin-bottom: 70px;
+}
+
 .blogs-div-one {
     color: var(--text);
     font-size: 16px;
@@ -704,6 +704,62 @@ a {
     border-radius: 8px 8px 8px 0px;
     background-color: #FFF;
     height: 44px;
+    padding: 10px 11px;
+    right: 210px;
+    top: 45%;
+    position: absolute;
+    border: white;
+}
+
+.blogs-div-one:hover,
+.blogs-div-one:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-two:hover,
+.blogs-div-two:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-three:hover,
+.blogs-div-three:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-two-two:hover,
+.blogs-div-two-two:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-one-one:hover,
+.blogs-div-one-one:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-one-one {
+    color: var(--text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #FFF;
+    height: 44px;
+    padding: 10px 11px;
+    right: 230px;
+    top: 45%;
+    position: absolute;
+    border: white;
 }
 
 .blogs-div-two {
@@ -715,6 +771,27 @@ a {
     border-radius: 8px 8px 8px 0px;
     background-color: #FFF;
     height: 44px;
+    padding: 10px 11px;
+    right: 230px;
+    top: 45%;
+    position: absolute;
+    border: white;
+}
+
+.blogs-div-two-two {
+    color: var(--text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #FFF;
+    height: 44px;
+    padding: 10px 11px;
+    right: 210px;
+    top: 45%;
+    position: absolute;
+    border: white;
 }
 
 .blogs-div-three {
@@ -726,6 +803,11 @@ a {
     border-radius: 8px 8px 8px 0px;
     background-color: #FFF;
     height: 44px;
+    padding: 10px 11px;
+    right: 195px;
+    top: 45%;
+    position: absolute;
+    border: white;
 }
 
 .blogs-title-two {
@@ -786,7 +868,8 @@ a {
 }
 
 .blogs-box-one {
-    padding: 21px 21px 41px 21px;
+    padding: 21px 21px 40px 21px;
+    position: relative;
 }
 
 .blogs-box-two {
