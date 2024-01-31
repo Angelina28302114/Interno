@@ -613,6 +613,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 140px;
 }  
 
 .projects-item {
