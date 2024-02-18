@@ -200,14 +200,33 @@ a {
     letter-spacing: 0.36px;
     width: 94px;
     margin-left: 96px;
-    margin-right: 127px;
+    /* margin-right: 127px; */
     margin-bottom: 70px;
+}
+
+.interior-box-two {
+    margin-top: 7px;
 }
 
 .interior-p:hover,
 .interior-p:focus {
     color: var(--menu);
     cursor: pointer;
+}
+
+.interior-box {
+    display: flex;
+}
+
+.interior-box-one {
+    fill: var(--menu);
+    width: 24px;
+    height: 17px;
+}
+
+.interior-box-one:hover,
+.interior-box-one:focus {
+    fill: var(--menu-color);
 }
 
 /* designs */
