@@ -1,0 +1,156 @@
+.projects-title {
+    color: var(--menu-color);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: 0.22px;
+    width: 331px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.projects-p-one {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.projects-p-two {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    margin-bottom: 71px;
+}
+
+.projects-title-two-two {
+    color: var(--menu-color);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; 
+    letter-spacing: 0.22px;
+    width: 299px;
+}
+
+.projects-title-two {
+    color: var(--menu-color);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; 
+    letter-spacing: 0.22px;
+}
+
+.projects-p-three {
+    color: var(--text);
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    width: 114px;
+}
+
+.projects-div-one {
+    border-radius: 100px;
+    background-color: var(--background);
+    width: 70px;
+    height: 70px;
+    margin-left: 221px;
+    background-image: url(../img/two.png);
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-position: center;
+}
+
+.projects-div-one:hover,
+.projects-div-one:focus {
+    background-color: var(--menu);
+    cursor: pointer;
+}
+
+.projects-div-two {
+    border-radius: 100px;
+    background-color: var(--background);
+    width: 70px;
+    height: 70px;
+    margin-left: 219px;
+    background-image: url(../img/two.png);
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-position: center;
+}
+
+.projects-div-two:hover,
+.projects-div-two:focus {
+    background-color: var(--menu);
+    cursor: pointer;
+}
+
+.projects-div-three {
+    border-radius: 100px;
+    background-color: var(--background);
+    width: 70px;
+    height: 70px;
+    margin-left: 213px;
+    background-image: url(../img/two.png);
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-position: center;
+}
+
+.projects-div-three:hover,
+.projects-div-three:focus {
+    background-color: var(--menu);
+    cursor: pointer;
+}
+
+.projects-div-four {
+    border-radius: 100px;
+    background-color: var(--background);
+    width: 70px;
+    height: 70px;
+    margin-left: 195px;
+    background-image: url(../img/two.png);
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-position: center;
+}
+
+.projects-div-four:hover,
+.projects-div-four:focus {
+    background-color: var(--menu);
+    cursor: pointer;
+}
+
+.projects-box-one {
+    display: flex;
+    margin-top: 25px;
+}
+
+.projects-list {
+    margin-left: -20px;
+    margin-top: -60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 140px;
+}  
+
+.projects-item {
+    margin-left: 20px;
+    margin-top: 60px;
+    flex-basis: calc((100% - 20px * 2) / 2);
+}

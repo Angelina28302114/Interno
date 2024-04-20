@@ -1,0 +1,30 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header-title {
+    color: var(--menu-color);
+    font-size: 19px;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+}
+
+.header-title:hover,
+.header-title:focus {
+    color: var(--menu);
+    cursor: pointer;
+}
+
+.header-list {
+    gap: 40px;
+    display: flex;
+}

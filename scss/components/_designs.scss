@@ -1,0 +1,108 @@
+.designs-title {
+    color: var(--menu-color);
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    width: 450px;
+    margin-top: 13px;
+    margin-bottom: 42px;
+}
+
+.designs-p-one {
+    color: var(--text);
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px; 
+    letter-spacing: 0.22px;
+    width: 531px;
+}
+
+.designs-p-two {
+    color: var(--text);
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px; 
+    letter-spacing: 0.22px;
+    width: 492px;
+    margin-bottom: 40px
+}
+
+.designs-div {
+    border-radius: 100px;
+    background: #F4F0EC;
+    width: 93px;
+    height: 93px;
+    background-image: url(../img/tell.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 34px;
+}
+
+.designs-tell {
+    color: var(--text);
+    font-size: 24px;
+    font-style: normal;
+    line-height: 36px; 
+    letter-spacing: 0.22px;
+    width: 138px;
+}
+
+.designs-tell:hover,
+.designs-tell:focus {
+    color: var(--menu);
+    cursor: pointer;
+}
+
+.designs-p-three {
+    color: var(--text);
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    width: 154px;
+}
+
+.designs-button {
+    color: var(--color);
+    font-size: 18px;
+    font-style: normal;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    width: 162px;
+    border-radius: 18px;
+    border: 2px solid #292F36;
+    background-color: #292F36;
+    width: 263px;
+    height: 71px;
+}
+
+.designs-button:hover,
+.designs-button:focus {
+    background-color: var(--color);
+    color: var(--menu-color);
+    cursor: pointer;
+}
+
+.designs-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
+.designs-box-one {
+    margin-right: 16px;
+}
+
+.designs-box-five {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.designs-box-four {
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+}

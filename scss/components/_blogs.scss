@@ -1,0 +1,215 @@
+.blogs {
+    margin-top: 142px;
+}
+
+.blogs-title {
+    color: var(--menu-color);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: 0.22px;
+    margin-bottom: 21px;
+}
+
+.blogs-p {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px; 
+    letter-spacing: 0.22px;
+}
+
+.blogs-p-one {
+    color: var(--text);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px; 
+    letter-spacing: 0.22px;
+    margin-bottom: 70px;
+}
+
+.blogs-div-one {
+    color: var(--text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #FFF;
+    height: 44px;
+    padding: 10px 11px;
+    right: 210px;
+    top: 45%;
+    position: absolute;
+    border: white;
+}
+
+.blogs-div-one:hover,
+.blogs-div-one:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-two:hover,
+.blogs-div-two:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-three:hover,
+.blogs-div-three:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-two-two:hover,
+.blogs-div-two-two:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-one-one:hover,
+.blogs-div-one-one:focus {
+    color: var(--color);
+    cursor: pointer;
+    background-color: var(--menu);
+}
+
+.blogs-div-one-one {
+    color: var(--text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #FFF;
+    height: 44px;
+    padding: 10px 11px;
+    right: 230px;
+    top: 45%;
+    position: absolute;
+    border: white;
+}
+
+.blogs-div-two {
+    color: var(--text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #FFF;
+    height: 44px;
+    padding: 10px 11px;
+    right: 230px;
+    top: 45%;
+    position: absolute;
+    border: white;
+}
+
+.blogs-div-two-two {
+    color: var(--text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #FFF;
+    height: 44px;
+    padding: 10px 11px;
+    right: 210px;
+    top: 45%;
+    position: absolute;
+    border: white;
+}
+
+.blogs-div-three {
+    color: var(--text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #FFF;
+    height: 44px;
+    padding: 10px 11px;
+    right: 195px;
+    top: 45%;
+    position: absolute;
+    border: white;
+}
+
+.blogs-title-two {
+    color: var(--menu-color);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; 
+    letter-spacing: 0.5px;
+    width: 337px;
+    margin-top: 15px;
+}
+
+.blogs-p-two {
+    color: var(--text);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    margin-right: 149px;
+    margin-top: 14px;
+}
+
+.blogs-div {
+    border-radius: 100px;
+    background: #F4F0EC;
+    width: 52px;
+    height: 52px; 
+    background-image: url(../img/two.png);
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-position: center; 
+}
+
+.blogs-div:hover,
+.blogs-div:focus {
+    background-color: var(--menu);
+    cursor: pointer;
+}
+
+.blogs-list {
+    margin-top: -40px;
+    margin-left: -20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blogs-item {
+    width: 382px;
+    margin-top: 40px;
+    margin-left: 20px;
+    flex-basis: calc((100% - 20px * 3) / 3);
+    border-radius: 62px;
+    border: 1px solid #E7E7E7;
+}
+
+.blogs-box-one {
+    padding: 21px 21px 40px 21px;
+    position: relative;
+}
+
+.blogs-box-two {
+    margin-top: 10.41px;
+    display: flex;
+}

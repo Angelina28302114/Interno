@@ -1,0 +1,109 @@
+.what-box {
+    border-radius: 70px;
+    background-color: #F4F0EC;
+    height: 675px;
+}
+
+.what-list {
+    display: flex;
+    margin-left: 51px;
+}
+
+.what-item {
+    border-radius: 30px;
+    background: #FFF;
+    width: 354px;
+    height: 287px;
+    margin-right: 18px;
+}
+
+.what-title-one {
+    color: var(--menu-color);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.5px; 
+    letter-spacing: 0.22px;
+    width: 479px;
+    margin-left: 361px;
+    padding-top: 103px;
+}
+
+.what-title-two {
+    color: var(--menu-color);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.5px;
+    letter-spacing: 0.22px;
+    width: 285px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 47px;
+}
+
+.what-title-three {
+    color: var(--menu-color);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; 
+    letter-spacing: 0.22px;
+    width: 143px;
+}
+
+.what-title-four {
+    color: var(--menu-color);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; 
+    letter-spacing: 0.22px;
+    width: 145px;
+}
+
+.what-title-five{
+    color: var(--menu-color);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; 
+    letter-spacing: 0.22px;
+    width: 143px;
+}
+
+.what-p-one {
+    color: var(--text);
+    font-size: 18px;
+    font-style: normal;
+    line-height: 27px; 
+    letter-spacing: 0.22px;
+}
+
+.what-p-two {
+    color: var(--text);
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px; 
+    letter-spacing: 0.22px;
+    width: 274px;
+    margin-left: 35px;
+}
+
+.what-box-one {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.what-box-two {
+    margin-left: 20px;
+}
