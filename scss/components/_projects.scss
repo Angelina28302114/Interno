@@ -1,5 +1,5 @@
 .projects-title {
-    color: var(--menu-color);
+    color: $menu-color;
     text-align: center;
     font-family: "DM Serif Display";
     font-size: 47px;
@@ -15,7 +15,7 @@
 }
 
 .projects-p-one {
-    color: var(--text);
+    color: $text-one-color;
     text-align: center;
     font-size: 22px;
     font-style: normal;
@@ -24,7 +24,7 @@
 }
 
 .projects-p-two {
-    color: var(--text);
+    color: $text-one-color;
     text-align: center;
     font-size: 22px;
     font-style: normal;
@@ -34,7 +34,7 @@
 }
 
 .projects-title-two-two {
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: "DM Serif Display";
     font-size: 24px;
     font-style: normal;
@@ -45,7 +45,7 @@
 }
 
 .projects-title-two {
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-style: normal;
@@ -55,7 +55,7 @@
 }
 
 .projects-p-three {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 22px;
     font-style: normal;
     line-height: 33px;
@@ -65,7 +65,7 @@
 
 .projects-div-one {
     border-radius: 100px;
-    background-color: var(--background);
+    background-color: $background-color;
     width: 70px;
     height: 70px;
     margin-left: 221px;
@@ -77,13 +77,13 @@
 
 .projects-div-one:hover,
 .projects-div-one:focus {
-    background-color: var(--menu);
+    background-color: $menu-one-color;
     cursor: pointer;
 }
 
 .projects-div-two {
     border-radius: 100px;
-    background-color: var(--background);
+    background-color: $background-color;
     width: 70px;
     height: 70px;
     margin-left: 219px;
@@ -95,13 +95,13 @@
 
 .projects-div-two:hover,
 .projects-div-two:focus {
-    background-color: var(--menu);
+    background-color: $menu-one-color;
     cursor: pointer;
 }
 
 .projects-div-three {
     border-radius: 100px;
-    background-color: var(--background);
+    background-color: $background-color;
     width: 70px;
     height: 70px;
     margin-left: 213px;
@@ -113,13 +113,13 @@
 
 .projects-div-three:hover,
 .projects-div-three:focus {
-    background-color: var(--menu);
+    background-color: $menu-one-color;
     cursor: pointer;
 }
 
 .projects-div-four {
     border-radius: 100px;
-    background-color: var(--background);
+    background-color: $background-color;
     width: 70px;
     height: 70px;
     margin-left: 195px;
@@ -131,7 +131,7 @@
 
 .projects-div-four:hover,
 .projects-div-four:focus {
-    background-color: var(--menu);
+    background-color: $menu-one-color;
     cursor: pointer;
 }
 

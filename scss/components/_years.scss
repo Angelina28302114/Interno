@@ -1,5 +1,5 @@
 .years {
-    background: #F4F0EC;
+    background: $background-color;
     height: 475px;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .years-title {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-family: "DM Serif Display";
     font-size: 85px;
@@ -21,7 +21,7 @@
 }
 
 .years-p {
-    color: var(--text);
+    color: $text-one-color;
     text-align: center;
     font-size: 22px;
     font-style: normal;
@@ -32,7 +32,7 @@
 .years-div {
     width: 1px;
     height: 195px;
-    background-color: #CDA274;
+    background-color: $menu-one-color;
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 139px;

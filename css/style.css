@@ -1,12 +1,3 @@
-:root {
-  --menu: #CDA274;
-  --menu-color: #292F36;
-  --text: #4D5053;
-  --color: #FFF;
-  --background: #F4F0EC;
-  --text-color: #CDA274;
-}
-
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -63,7 +54,7 @@ a {
 }
 
 .header-title {
-  color: var(--menu-color);
+  color: #292F36;
   font-size: 19px;
   font-style: normal;
   line-height: 30px;
@@ -72,7 +63,7 @@ a {
 
 .header-title:hover,
 .header-title:focus {
-  color: var(--menu);
+  color: #CDA274;
   cursor: pointer;
 }
 
@@ -94,7 +85,7 @@ a {
 }
 
 .create-title {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 80px;
   font-style: normal;
@@ -106,7 +97,7 @@ a {
 }
 
 .create-p {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -115,7 +106,7 @@ a {
 }
 
 .create-button {
-  color: var(--color);
+  color: #FFF;
   font-size: 18px;
   font-style: normal;
   line-height: 27px;
@@ -131,8 +122,8 @@ a {
 
 .create-button:hover,
 .create-button:focus {
-  background-color: var(--color);
-  color: var(--menu-color);
+  background-color: #FFF;
+  color: #292F36;
   cursor: pointer;
 }
 
@@ -145,7 +136,7 @@ a {
 }
 
 .interior-title {
-  color: var(--menu-color);
+  color: #292F36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 25px;
@@ -156,7 +147,7 @@ a {
 }
 
 .interior-p-one {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -167,7 +158,7 @@ a {
 }
 
 .interior-p-two {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -178,7 +169,7 @@ a {
 }
 
 .interior-p-three {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -189,7 +180,7 @@ a {
 }
 
 .interior-p {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -207,7 +198,7 @@ a {
 
 .interior-p:hover,
 .interior-p:focus {
-  color: var(--menu);
+  color: #CDA274;
   cursor: pointer;
 }
 
@@ -216,18 +207,18 @@ a {
 }
 
 .interior-box-one {
-  fill: var(--menu);
+  fill: #CDA274;
   width: 24px;
   height: 17px;
 }
 
 .interior-box-one:hover,
 .interior-box-one:focus {
-  fill: var(--menu-color);
+  fill: #292F36;
 }
 
 .designs-title {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 50px;
   font-style: normal;
@@ -240,7 +231,7 @@ a {
 }
 
 .designs-p-one {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -249,7 +240,7 @@ a {
 }
 
 .designs-p-two {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -270,7 +261,7 @@ a {
 }
 
 .designs-tell {
-  color: var(--text);
+  color: #4D5053;
   font-size: 24px;
   font-style: normal;
   line-height: 36px;
@@ -280,12 +271,12 @@ a {
 
 .designs-tell:hover,
 .designs-tell:focus {
-  color: var(--menu);
+  color: #CDA274;
   cursor: pointer;
 }
 
 .designs-p-three {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -294,7 +285,7 @@ a {
 }
 
 .designs-button {
-  color: var(--color);
+  color: #FFF;
   font-size: 18px;
   font-style: normal;
   line-height: 27px;
@@ -309,8 +300,8 @@ a {
 
 .designs-button:hover,
 .designs-button:focus {
-  background-color: var(--color);
-  color: var(--menu-color);
+  background-color: #FFF;
+  color: #292F36;
   cursor: pointer;
 }
 
@@ -355,7 +346,7 @@ a {
 }
 
 .what-title-one {
-  color: var(--menu-color);
+  color: #292F36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 45px;
@@ -369,7 +360,7 @@ a {
 }
 
 .what-title-two {
-  color: var(--menu-color);
+  color: #292F36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 45px;
@@ -384,7 +375,7 @@ a {
 }
 
 .what-title-three {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-style: normal;
@@ -395,7 +386,7 @@ a {
 }
 
 .what-title-four {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 24px;
   font-style: normal;
@@ -406,7 +397,7 @@ a {
 }
 
 .what-title-five {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-style: normal;
@@ -417,7 +408,7 @@ a {
 }
 
 .what-p-one {
-  color: var(--text);
+  color: #4D5053;
   font-size: 18px;
   font-style: normal;
   line-height: 27px;
@@ -425,7 +416,7 @@ a {
 }
 
 .what-p-two {
-  color: var(--text);
+  color: #4D5053;
   font-size: 20px;
   font-style: normal;
   line-height: 30px;
@@ -462,7 +453,7 @@ a {
 }
 
 .projects-title {
-  color: var(--menu-color);
+  color: #292F36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 47px;
@@ -478,7 +469,7 @@ a {
 }
 
 .projects-p-one {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -487,7 +478,7 @@ a {
 }
 
 .projects-p-two {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -497,7 +488,7 @@ a {
 }
 
 .projects-title-two-two {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 24px;
   font-style: normal;
@@ -508,7 +499,7 @@ a {
 }
 
 .projects-title-two {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-style: normal;
@@ -518,7 +509,7 @@ a {
 }
 
 .projects-p-three {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -528,7 +519,7 @@ a {
 
 .projects-div-one {
   border-radius: 100px;
-  background-color: var(--background);
+  background-color: #F4F0EC;
   width: 70px;
   height: 70px;
   margin-left: 221px;
@@ -540,13 +531,13 @@ a {
 
 .projects-div-one:hover,
 .projects-div-one:focus {
-  background-color: var(--menu);
+  background-color: #CDA274;
   cursor: pointer;
 }
 
 .projects-div-two {
   border-radius: 100px;
-  background-color: var(--background);
+  background-color: #F4F0EC;
   width: 70px;
   height: 70px;
   margin-left: 219px;
@@ -558,13 +549,13 @@ a {
 
 .projects-div-two:hover,
 .projects-div-two:focus {
-  background-color: var(--menu);
+  background-color: #CDA274;
   cursor: pointer;
 }
 
 .projects-div-three {
   border-radius: 100px;
-  background-color: var(--background);
+  background-color: #F4F0EC;
   width: 70px;
   height: 70px;
   margin-left: 213px;
@@ -576,13 +567,13 @@ a {
 
 .projects-div-three:hover,
 .projects-div-three:focus {
-  background-color: var(--menu);
+  background-color: #CDA274;
   cursor: pointer;
 }
 
 .projects-div-four {
   border-radius: 100px;
-  background-color: var(--background);
+  background-color: #F4F0EC;
   width: 70px;
   height: 70px;
   margin-left: 195px;
@@ -594,7 +585,7 @@ a {
 
 .projects-div-four:hover,
 .projects-div-four:focus {
-  background-color: var(--menu);
+  background-color: #CDA274;
   cursor: pointer;
 }
 
@@ -630,7 +621,7 @@ a {
 }
 
 .years-title {
-  color: var(--text-color);
+  color: #CDA274;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 85px;
@@ -641,7 +632,7 @@ a {
 }
 
 .years-p {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -667,7 +658,7 @@ a {
 }
 
 .blogs-title {
-  color: var(--menu-color);
+  color: #292F36;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 48px;
@@ -679,7 +670,7 @@ a {
 }
 
 .blogs-p {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -688,7 +679,7 @@ a {
 }
 
 .blogs-p-one {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -698,7 +689,7 @@ a {
 }
 
 .blogs-div-one {
-  color: var(--text);
+  color: #4D5053;
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
@@ -710,46 +701,46 @@ a {
   right: 210px;
   top: 45%;
   position: absolute;
-  border: white;
+  border: #FFF;
 }
 
 .blogs-div-one:hover,
 .blogs-div-one:focus {
-  color: var(--color);
+  color: #FFF;
   cursor: pointer;
-  background-color: var(--menu);
+  background-color: #CDA274;
 }
 
 .blogs-div-two:hover,
 .blogs-div-two:focus {
-  color: var(--color);
+  color: #FFF;
   cursor: pointer;
-  background-color: var(--menu);
+  background-color: #CDA274;
 }
 
 .blogs-div-three:hover,
 .blogs-div-three:focus {
-  color: var(--color);
+  color: #FFF;
   cursor: pointer;
-  background-color: var(--menu);
+  background-color: #CDA274;
 }
 
 .blogs-div-two-two:hover,
 .blogs-div-two-two:focus {
-  color: var(--color);
+  color: #FFF;
   cursor: pointer;
-  background-color: var(--menu);
+  background-color: #CDA274;
 }
 
 .blogs-div-one-one:hover,
 .blogs-div-one-one:focus {
-  color: var(--color);
+  color: #FFF;
   cursor: pointer;
-  background-color: var(--menu);
+  background-color: #CDA274;
 }
 
 .blogs-div-one-one {
-  color: var(--text);
+  color: #4D5053;
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
@@ -761,11 +752,11 @@ a {
   right: 230px;
   top: 45%;
   position: absolute;
-  border: white;
+  border: #FFF;
 }
 
 .blogs-div-two {
-  color: var(--text);
+  color: #4D5053;
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
@@ -777,11 +768,11 @@ a {
   right: 230px;
   top: 45%;
   position: absolute;
-  border: white;
+  border: #FFF;
 }
 
 .blogs-div-two-two {
-  color: var(--text);
+  color: #4D5053;
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
@@ -793,11 +784,11 @@ a {
   right: 210px;
   top: 45%;
   position: absolute;
-  border: white;
+  border: #FFF;
 }
 
 .blogs-div-three {
-  color: var(--text);
+  color: #4D5053;
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
@@ -809,11 +800,11 @@ a {
   right: 195px;
   top: 45%;
   position: absolute;
-  border: white;
+  border: #FFF;
 }
 
 .blogs-title-two {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-style: normal;
@@ -825,7 +816,7 @@ a {
 }
 
 .blogs-p-two {
-  color: var(--text);
+  color: #4D5053;
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
@@ -847,7 +838,7 @@ a {
 
 .blogs-div:hover,
 .blogs-div:focus {
-  background-color: var(--menu);
+  background-color: #CDA274;
   cursor: pointer;
 }
 
@@ -881,7 +872,7 @@ a {
 .join-div {
   border-radius: 70px;
   border: 1px solid #000;
-  background: #292F36;
+  background-color: #292F36;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 1200px;
   height: 414px;
@@ -889,7 +880,7 @@ a {
 }
 
 .join-title {
-  color: var(--color);
+  color: #FFF;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 50px;
@@ -904,7 +895,7 @@ a {
 }
 
 .join-p {
-  color: var(--color);
+  color: #FFF;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -925,7 +916,7 @@ a {
   filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.2));
   width: 241px;
   height: 71px;
-  color: var(--color);
+  color: #FFF;
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -937,8 +928,8 @@ a {
 
 .join-button:hover,
 .join-button:focus {
-  background-color: var(--color);
-  color: var(--menu);
+  background-color: #FFF;
+  color: #CDA274;
   cursor: pointer;
 }
 
@@ -947,7 +938,7 @@ a {
 }
 
 .footer-p {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -960,13 +951,13 @@ a {
 }
 
 .footer-box {
-  fill: var(--menu-color);
+  fill: #292F36;
   width: 16px;
   height: 17px;
 }
 
 .footer-item-one {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -975,7 +966,7 @@ a {
 }
 
 .footer-title-one {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-style: normal;
@@ -995,7 +986,7 @@ a {
 }
 
 .footer-item-two {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -1003,7 +994,7 @@ a {
 }
 
 .footer-title-two {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-style: normal;
@@ -1015,7 +1006,7 @@ a {
 }
 
 .footer-title-three {
-  color: var(--menu-color);
+  color: #292F36;
   font-family: "DM Serif Display";
   font-size: 25px;
   font-style: normal;
@@ -1027,7 +1018,7 @@ a {
 }
 
 .footer-address-one {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -1037,12 +1028,12 @@ a {
 
 .footer-address-one:hover,
 .footer-address-one:focus {
-  color: var(--menu);
+  color: #CDA274;
   cursor: pointer;
 }
 
 .footer-mail {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -1051,12 +1042,12 @@ a {
 
 .footer-mail:hover,
 .footer-mail:focus {
-  color: var(--menu);
+  color: #CDA274;
   cursor: pointer;
 }
 
 .footer-tell {
-  color: var(--text);
+  color: #4D5053;
   font-size: 22px;
   font-style: normal;
   line-height: 33px;
@@ -1065,7 +1056,7 @@ a {
 
 .footer-tell:hover,
 .footer-tell:focus {
-  color: var(--menu);
+  color: #CDA274;
   cursor: pointer;
 }
 
@@ -1081,7 +1072,7 @@ a {
 }
 
 .footer-p-one {
-  color: var(--text);
+  color: #4D5053;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -1090,7 +1081,7 @@ a {
 }
 
 .footer-p-two {
-  color: var(--text-color);
+  color: #CDA274;
   text-align: center;
   font-size: 22px;
   font-style: normal;

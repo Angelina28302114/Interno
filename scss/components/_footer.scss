@@ -3,7 +3,7 @@
 }
 
 .footer-p {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 22px;
     font-style: normal;
     line-height: 33px;
@@ -16,13 +16,13 @@
 }
 
 .footer-box {
-    fill: var(--menu-color);
+    fill: $menu-color;
     width: 16px;
     height: 17px;
 }
 
 .footer-item-one {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 22px;
     font-style: normal;
     line-height: 33px; 
@@ -31,7 +31,7 @@
 }
 
 .footer-title-one {
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-style: normal;
@@ -51,7 +51,7 @@
 }
 
 .footer-item-two {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 22px;
     font-style: normal;
     line-height: 33px; 
@@ -59,7 +59,7 @@
 }
 
 .footer-title-two{
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-style: normal;
@@ -71,7 +71,7 @@
 }
 
 .footer-title-three {
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-style: normal;
@@ -83,7 +83,7 @@
 }
 
 .footer-address-one {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 22px;
     font-style: normal;
     line-height: 33px; 
@@ -93,12 +93,12 @@
 
 .footer-address-one:hover,
 .footer-address-one:focus {
-    color: var(--menu);
+    color: $menu-one-color;
     cursor: pointer;
 }
 
 .footer-mail {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 22px;
     font-style: normal;
     line-height: 33px; 
@@ -107,12 +107,12 @@
 
 .footer-mail:hover,
 .footer-mail:focus {
-    color: var(--menu);
+    color: $menu-one-color;
     cursor: pointer;
 }
 
 .footer-tell {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 22px;
     font-style: normal;
     line-height: 33px; 
@@ -121,7 +121,7 @@
 
 .footer-tell:hover,
 .footer-tell:focus {
-    color: var(--menu);
+    color: $menu-one-color;
     cursor: pointer;
 }
 
@@ -137,7 +137,7 @@
 }
 
 .footer-p-one {
-    color: var(--text);
+    color: $text-one-color;
     text-align: center;
     font-size: 22px;
     font-style: normal;
@@ -146,7 +146,7 @@
 }
 
 .footer-p-two {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 22px;
     font-style: normal;

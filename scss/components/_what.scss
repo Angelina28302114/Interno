@@ -1,6 +1,6 @@
 .what-box {
     border-radius: 70px;
-    background-color: #F4F0EC;
+    background-color: $background-color;
     height: 675px;
 }
 
@@ -11,14 +11,14 @@
 
 .what-item {
     border-radius: 30px;
-    background: #FFF;
+    background: $title-color;
     width: 354px;
     height: 287px;
     margin-right: 18px;
 }
 
 .what-title-one {
-    color: var(--menu-color);
+    color: $menu-color;
     text-align: center;
     font-family: "DM Serif Display";
     font-size: 45px;
@@ -32,7 +32,7 @@
 }
 
 .what-title-two {
-    color: var(--menu-color);
+    color: $menu-color;
     text-align: center;
     font-family: "DM Serif Display";
     font-size: 45px;
@@ -47,7 +47,7 @@
 }
 
 .what-title-three {
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-style: normal;
@@ -58,7 +58,7 @@
 }
 
 .what-title-four {
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: "DM Serif Display";
     font-size: 24px;
     font-style: normal;
@@ -69,7 +69,7 @@
 }
 
 .what-title-five{
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-style: normal;
@@ -80,7 +80,7 @@
 }
 
 .what-p-one {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 18px;
     font-style: normal;
     line-height: 27px; 
@@ -88,7 +88,7 @@
 }
 
 .what-p-two {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 20px;
     font-style: normal;
     line-height: 30px; 

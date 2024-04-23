@@ -3,7 +3,7 @@
 }
 
 .blogs-title {
-    color: var(--menu-color);
+    color: $menu-color;
     text-align: center;
     font-family: "DM Serif Display";
     font-size: 48px;
@@ -15,7 +15,7 @@
 }
 
 .blogs-p {
-    color: var(--text);
+    color: $text-one-color;
     text-align: center;
     font-size: 22px;
     font-style: normal;
@@ -24,7 +24,7 @@
 }
 
 .blogs-p-one {
-    color: var(--text);
+    color: $text-one-color;
     text-align: center;
     font-size: 22px;
     font-style: normal;
@@ -34,122 +34,122 @@
 }
 
 .blogs-div-one {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.22px;
     border-radius: 8px 8px 8px 0px;
-    background-color: #FFF;
+    background-color: $title-color;
     height: 44px;
     padding: 10px 11px;
     right: 210px;
     top: 45%;
     position: absolute;
-    border: white;
+    border: $title-color;
 }
 
 .blogs-div-one:hover,
 .blogs-div-one:focus {
-    color: var(--color);
+    color: $title-color;
     cursor: pointer;
-    background-color: var(--menu);
+    background-color: $menu-one-color;
 }
 
 .blogs-div-two:hover,
 .blogs-div-two:focus {
-    color: var(--color);
+    color: $title-color;
     cursor: pointer;
-    background-color: var(--menu);
+    background-color: $menu-one-color;
 }
 
 .blogs-div-three:hover,
 .blogs-div-three:focus {
-    color: var(--color);
+    color: $title-color;
     cursor: pointer;
-    background-color: var(--menu);
+    background-color: $menu-one-color;
 }
 
 .blogs-div-two-two:hover,
 .blogs-div-two-two:focus {
-    color: var(--color);
+    color: $title-color;
     cursor: pointer;
-    background-color: var(--menu);
+    background-color: $menu-one-color;
 }
 
 .blogs-div-one-one:hover,
 .blogs-div-one-one:focus {
-    color: var(--color);
+    color: $title-color;
     cursor: pointer;
-    background-color: var(--menu);
+    background-color: $menu-one-color;
 }
 
 .blogs-div-one-one {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.22px;
     border-radius: 8px 8px 8px 0px;
-    background-color: #FFF;
+    background-color: $title-color;
     height: 44px;
     padding: 10px 11px;
     right: 230px;
     top: 45%;
     position: absolute;
-    border: white;
+    border: $title-color;
 }
 
 .blogs-div-two {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.22px;
     border-radius: 8px 8px 8px 0px;
-    background-color: #FFF;
+    background-color: $title-color;
     height: 44px;
     padding: 10px 11px;
     right: 230px;
     top: 45%;
     position: absolute;
-    border: white;
+    border: $title-color;
 }
 
 .blogs-div-two-two {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.22px;
     border-radius: 8px 8px 8px 0px;
-    background-color: #FFF;
+    background-color: $title-color;
     height: 44px;
     padding: 10px 11px;
     right: 210px;
     top: 45%;
     position: absolute;
-    border: white;
+    border: $title-color;
 }
 
 .blogs-div-three {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.22px;
     border-radius: 8px 8px 8px 0px;
-    background-color: #FFF;
+    background-color: $title-color;
     height: 44px;
     padding: 10px 11px;
     right: 195px;
     top: 45%;
     position: absolute;
-    border: white;
+    border: $title-color;
 }
 
 .blogs-title-two {
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-style: normal;
@@ -161,7 +161,7 @@
 }
 
 .blogs-p-two {
-    color: var(--text);
+    color: $text-one-color;
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
@@ -172,7 +172,7 @@
 
 .blogs-div {
     border-radius: 100px;
-    background: #F4F0EC;
+    background: $background-color;
     width: 52px;
     height: 52px; 
     background-image: url(../img/two.png);
@@ -183,7 +183,7 @@
 
 .blogs-div:hover,
 .blogs-div:focus {
-    background-color: var(--menu);
+    background-color: $menu-one-color;
     cursor: pointer;
 }
 
