@@ -73,10 +73,19 @@ a {
 }
 
 .create {
-  background-image: url(../img/background.png);
   background-repeat: no-repeat;
   height: 831px;
   background-position: center;
+}
+@media screen and (min-width: 1186px) {
+  .create {
+    background-image: url(../img/background.png);
+  }
+}
+@media screen and (min-width: 1186px) and (min-device-pixel-ratio: 2), screen and (min-width: 1186px) and (min-resolution: 192dpi), screen and (min-width: 1186px) and (min-resolution: 2dppx) {
+  .create {
+    background-image: url(../img/background@2x-desktop.png);
+  }
 }
 
 .create-box {

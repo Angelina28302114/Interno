@@ -1,8 +1,16 @@
 .create {
-    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     height: 831px;
     background-position: center;
+
+    @media screen and (min-width: 1186px) {
+        background-image: url(../img/background.png);
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/background@2x-desktop.png);
+        }
+        }
 }
 
 .create-box {
